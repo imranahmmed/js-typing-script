@@ -4,20 +4,22 @@ body {
     background: linear-gradient(to right, #001a0f, #001112);
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; */
 }
-div{
+
+div {
     display: block;
 }
-.type{
+
+.type {
     position: relative;
     display: inline-block;
 }
 
-.type::after{
+.typeel {
+    min-height: 100px;
+}
+
+.type::after {
     content: "";
     position: absolute;
     top: 0;
@@ -28,12 +30,12 @@ div{
     animation: blink 0.5s infinite;
 }
 
-@keyframes blink{
-    from{
+@keyframes blink {
+    from {
         transform: scale(1);
     }
 
-    to{
+    to {
         transform: scale(0);
     }
 }

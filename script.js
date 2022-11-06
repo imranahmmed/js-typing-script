@@ -45,16 +45,6 @@ function typeScript() {
         });
     })
 
-
-
-
-
-
-
-
-
-
 }
-
 
 typeScript()
